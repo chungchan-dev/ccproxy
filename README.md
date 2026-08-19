@@ -1,3 +1,5 @@
+
+
 # CCProxy
 
 [![GitHub Actions CI](https://github.com/chungchandev/ccproxy/actions/workflows/ci.yml/badge.svg)](https://github.com/chungchandev/ccproxy/actions/workflows/ci.yml) [![GitHub release (latest by date)](https://img.shields.io/github/v/release/chungchandev/ccproxy)](https://github.com/chungchandev/ccproxy/releases/latest) [![Made with Rust](https://img.shields.io/badge/Made%20with-Rust-orange?style=flat&logo=rust)](https://www.rust-lang.org/) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
@@ -15,7 +17,7 @@ CCProxy sits in front of your Bedrock server and forwards player traffic while k
 - **BDS and GeyserMC Compatible**: Works with the official Minecraft Bedrock Dedicated Server and GeyserMC.
 - **Flexible Configuration**: YAML config file with environment variable overrides, prefixed with `CCPROXY__`.
 - **Structured Logging**: Dual output (stdout plus rolling daily log files) with configurable log levels and JSON format support.
-- **Graceful Shutdown**: Clean shutdown handling with configurable timeout.
+- **Graceful Shutdown**: Clean shutdown handling with a 5-second timeout.
 - **Single Binary**: Zero external dependencies, just one executable.
 
 ## Quick Start
